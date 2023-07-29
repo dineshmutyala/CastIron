@@ -32,6 +32,12 @@ gradlePlugin-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", ve
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-[bundles]
 
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+
+java-lib = { id = "java-library" }
+
+castiron = { id = "cast-iron-plugin" }
+
+[bundles]
