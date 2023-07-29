@@ -23,4 +23,10 @@ gradlePlugin {
             implementationClass = "com.dinesh.castiron.gradle.plugins.CastironPlugin"
         }
     }
+    plugins {
+        create("SkipComposeConfiguration") {
+            id = "skip-compose-configuration"
+            implementationClass = "com.dinesh.castiron.gradle.plugins.SkipComposeConfigurationPlugin"
+        }
+    }
 }

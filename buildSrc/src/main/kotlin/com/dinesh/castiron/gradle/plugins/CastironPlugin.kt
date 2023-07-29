@@ -10,6 +10,9 @@ class CastironPlugin: Plugin<Project> {
 
         with(target) {
             val libs = the<LibrariesForLibs>()
+            configureAndroid(libs)
+            configureKotlin(libs)
+            configureKapt(libs)
         }
     }
 }
