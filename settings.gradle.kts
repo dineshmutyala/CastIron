@@ -16,4 +16,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Castiron"
-include(":app")
+include(":castiron-app")
