@@ -14,7 +14,7 @@ dependencies {
 
     implementation(libs.material3)
 
-    implementation(project(Modules.Ui.COMPONENTS))
+    implementation(project(Modules.Ui.THEME))
 
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.tooling.preview)
