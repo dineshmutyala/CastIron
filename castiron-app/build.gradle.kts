@@ -1,3 +1,5 @@
+import com.dinesh.castiron.gradle.Config.Modules
+
 plugins {
     id(libs.plugins.android.application.get().pluginId)
     id(libs.plugins.kotlin.android.get().pluginId)
@@ -15,10 +17,15 @@ dependencies {
     implementation(platform(libs.compose.bom))
     implementation(libs.ui)
     implementation(libs.ui.graphics)
-    implementation(libs.ui.tooling.preview)
     implementation(libs.material3)
 
+    debugImplementation(libs.ui.tooling)
+    debugImplementation(libs.ui.tooling.preview)
+    debugImplementation(libs.ui.test.manifest)
+
     implementation(platform(libs.firebas.bom))
+
+    implementation(project(Modules.Ui.THEME))
 
     testImplementation(libs.junit)
 
@@ -27,6 +34,4 @@ dependencies {
     androidTestImplementation(platform(libs.compose.bom))
     androidTestImplementation(libs.ui.test.junit4)
 
-    debugImplementation(libs.ui.tooling)
-    debugImplementation(libs.ui.test.manifest)
 }

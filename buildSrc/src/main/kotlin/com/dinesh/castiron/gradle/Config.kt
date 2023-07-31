@@ -8,12 +8,16 @@ object Config {
     object Modules {
         const val APP = ":castiron-app"
 
-    fun getNamespace(
-        module: String,
-        libs: LibrariesForLibs
-    ): String {
-        return if (module == APP || ":$module" == APP) libs.versions.application.id.get()
-        else "$ROOT_NAMESPACE.${module.replace("-", ".")}"
-    }
+        object Ui {
+            const val THEME = ":castiron-ui-theme"
+        }
+
+        fun getNamespace(
+            module: String,
+            libs: LibrariesForLibs
+        ): String {
+            return if (module == APP || ":$module" == APP) libs.versions.application.id.get()
+            else "$ROOT_NAMESPACE.${module.replace("-", ".")}"
+        }
     }
 }
