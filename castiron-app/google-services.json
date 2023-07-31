@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "91382678279",
+    "project_id": "com-dinesh-castiron",
+    "storage_bucket": "com-dinesh-castiron.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91382678279:android:07ae8f122b6ec67c183ba2",
+        "android_client_info": {
+          "package_name": "com.dinesh.castiron"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91382678279-fvhnljer5ot6muak872hplv45e8efb58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dinesh.castiron",
+            "certificate_hash": "ff05e0f70dcf1ee0c631796ff67f658e3343662d"
+          }
+        },
+        {
+          "client_id": "91382678279-lmpt733bg6b92dsjlkrh5e6drlo7g2fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjwQw9HWM5cnMAY2duW2mwMvk4Hhm0Sq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91382678279-lmpt733bg6b92dsjlkrh5e6drlo7g2fn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

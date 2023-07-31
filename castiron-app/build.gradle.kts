@@ -3,6 +3,7 @@ plugins {
     id(libs.plugins.android.application.get().pluginId)
     id(libs.plugins.kotlin.android.get().pluginId)
     id(libs.plugins.castiron.get().pluginId)
+    id(libs.plugins.gms.googleServices.get().pluginId)
 }
 
 dependencies {
