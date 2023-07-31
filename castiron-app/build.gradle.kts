@@ -14,6 +14,8 @@ dependencies {
 
     implementation(libs.activity.compose)
 
+    implementation(libs.core.splashscreen)
+
     implementation(platform(libs.compose.bom))
     implementation(libs.ui)
     implementation(libs.ui.graphics)
