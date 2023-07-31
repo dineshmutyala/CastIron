@@ -9,6 +9,7 @@ object Config {
         const val APP = ":castiron-app"
 
         object Ui {
+            const val COMPONENTS = ":castiron-ui-components"
             const val THEME = ":castiron-ui-theme"
         }
 
